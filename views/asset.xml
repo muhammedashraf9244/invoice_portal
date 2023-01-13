@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+        <template id="assets_common_report" name="invoice_portal html assets" inherit_id="web.report_assets_common">
+            <xpath expr="." position="inside">
+                <link rel="stylesheet" type="text/scss"
+                      href="/invoice_portal/static/src/css/style.css"/>
+            </xpath>
+        </template>
+
+    </data>
+</odoo>

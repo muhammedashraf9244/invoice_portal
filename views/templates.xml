@@ -1,0 +1,26 @@
+<odoo>
+    <data>
+        <template id="invoice_portal_layout" inherit_id="portal.frontend_layout">
+            <xpath expr="//ul[@id='top_menu']" position="after">
+                <ul>
+                    <ul class="nav navbar-nav ml-auto text-right" id="invoice_portal">
+                        <li class="nav-item">
+                            <a href="/invoice_portal/html" class="btn btn-primary">
+                                Imprimer Les Factures (HTML)
+                            </a>
+                        </li>
+                    </ul>
+                </ul>
+                <ul>
+                    <ul class="nav navbar-nav ml-auto text-right" id="invoice_portal">
+                        <li class="nav-item">
+                            <a href="/invoice_portal/pdf" class="btn btn-primary">
+                                Imprimer Les Factures (PDF)
+                            </a>
+                        </li>
+                    </ul>
+                </ul>
+            </xpath>
+        </template>
+    </data>
+</odoo>

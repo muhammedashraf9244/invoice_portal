@@ -1,0 +1,34 @@
+ .html_invoice_portal{
+height:100mm;
+width:100mm;
+font-size:10px;
+page-break-before:always !important;
+position:'absolute' !important;
+}
+
+@page .html_invoice_portal {
+  size: 100mm 100mm;
+  height: 100mm;
+  width: 100mm;
+  margin: 0;
+}
+
+@media print {
+  @page {
+  size: 100mm 100mm;
+  height: 100mm;
+  width: 100mm;
+  }
+}
+
+html .html_invoice_portal{
+  width: 100mm;
+  height: 100mm;
+  margin: 0;
+}
+
+body .html_invoice_portal{
+  width: 100mm;
+  height: 100mm;
+  margin: 0;
+}
